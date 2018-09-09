@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Amatic SC" rel="stylesheet">
+    <title>Soup Recipie</title>
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+      }
+
+      img {
+        height: 100%;
+        float: left;
+      }
+
+      * {
+        box-sizing: border-box;
+        font-family: 'Amatic SC';
+        font-size: 1vw;
+        color: #06070E;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+
+      th, td {
+        text-align: center;
+        font-size: 1vw;
+        padding: 8px;
+      }
+
+      td span {
+        font-weight: bold;
+        color: #7BAE7F;
+      }
+
+      #background {
+        background-image: url(./src/background.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #board {
+        background: #F4F3EE;
+        border-radius: 0.2vw;
+        width: 60vw;
+        height: 35vw;
+        boxShadow: 1px 1px 12px;
+      }
+
+      #information {
+        display: block;
+        overflow-x: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #title {
+        font-size: 2vw;
+      }
+
+      #recipie {
+        display: flex;
+      }
+
+      #recipie div {
+        flex: 10%;
+        text-align: center;
+        padding: 2vw;
+      }
+
+      #recipie li {
+        font-size: 1vw;
+        font-weight: normal;
+      }
+
+      .text {
+        font-size: 1vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="background">
+      <div id="board">
+        <img src="./src/salad.jpg" alt="greek salad">
+        <div id="information">
+          <h1 id="title">Greek Salad</h1>
+          <p>Classic and tasty greek salad</p>
+          <table>
+            <tr>
+              <th>YIELDS</th>
+              <th>PREP TIME</th>
+              <th>TOTAL TIME</th>
+            </tr>
+            <tr>
+              <td><span>4 SERVINGS</span></td>
+              <td><span>15 MINS</span></td>
+              <td><span>15 MINS</span></td>
+            </tr>
+          </table>
+          <div id="recipie">
+            <div>
+              <h2>Ingredients<h2>
+              <ul>
+                <li>1 pt. grape or cherry tomatoes, halved</li>
+                <li>1 cucumber, thinly sliced into half moons</li>
+                <li>1 c. halved kalamata olives</li>
+                <li>1/2 red onion, thinly sliced</li>
+                <li>3/4 c. crumbled feta</li>
+                <li>2 tbsp. red wine vinegar</li>
+                <li>Kosher salt</li>
+                <li>Juice of 1/2 a lemon</li>
+                <li>1 tsp. dried oregano</li>
+              </ul>
+            </div>
+            <div>
+              <h2>Directions<h2>
+              <ol>
+                <li>In a large bowl, stir together tomatoes, cucumber, olives, and red onion. Gently fold in feta.</li>
+                <li>In a small bowl, make dressing: Combine vinegar, lemon juice, and oregano and season with salt and pepper. Slowly add olive oil, whisking to combine.</li>
+                <li>Drizzle dressing over salad.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+<html>

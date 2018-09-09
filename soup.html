@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Amatic SC" rel="stylesheet">
+    <title>Soup Recipie</title>
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+      }
+
+      img {
+        height: 100%;
+        float: left;
+      }
+
+      * {
+        box-sizing: border-box;
+        font-family: 'Amatic SC';
+        font-size: 1vw;
+        color: #06070E;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+
+      th, td {
+        text-align: center;
+        font-size: 1vw;
+        padding: 8px;
+      }
+
+      td span {
+        font-weight: bold;
+        color: #7BAE7F;
+      }
+
+      #background {
+        background-image: url(./src/background.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #board {
+        background: #F4F3EE;
+        border-radius: 0.2vw;
+        width: 60vw;
+        height: 35vw;
+        boxShadow: 1px 1px 12px;
+      }
+
+      #information {
+        display: block;
+        overflow-x: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #title {
+        font-size: 2vw;
+      }
+
+      #recipie {
+        display: flex;
+      }
+
+      #recipie div {
+        flex: 10%;
+        text-align: center;
+        padding: 2vw;
+      }
+
+      #recipie li {
+        font-size: 1vw;
+        font-weight: normal;
+      }
+
+      .text {
+        font-size: 1vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="background">
+      <div id="board">
+        <img src="./src/soup.jpg" alt="egg drop soup">
+        <div id="information">
+          <h1 id="title">Egg Drop Soup</h1>
+          <p>I loved getting egg drop soup with our Chinese take-out as a kid and it turns out this favorite is super easy to make and ingredients you probably already have on hand!</p>
+          <table>
+            <tr>
+              <th>YIELDS</th>
+              <th>PREP TIME</th>
+              <th>TOTAL TIME</th>
+            </tr>
+            <tr>
+              <td><span>4 SERVINGS</span></td>
+              <td><span>5 MINS</span></td>
+              <td><span>10 MINS</span></td>
+            </tr>
+          </table>
+          <div id="recipie">
+            <div>
+              <h2>Ingredients<h2>
+              <ul>
+                <li>6 c. chicken broth</li>
+                <li>1/4 tsp. ground ginger</li>
+                <li>1 tbsp. low-sodium soy sauce</li>
+                <li>1 tbsp. cornstarch</li>
+                <li>1 tsp. sesame oil</li>
+                <li>4 eggs, well beaten</li>
+                <li>Kosher salt</li>
+                <li>Freshly ground black pepper</li>
+                <li>2 tbsp. thinly sliced green onions, for garnish</li>
+              </ul>
+            </div>
+            <div>
+              <h2>Directions<h2>
+              <ol>
+                <li>In a large pot over medium heat, bring broth and ginger to boil. Whisk soy sauce and cornstarch together then whisk into broth. Let boil to thicken slightly, 3 minutes then remove from heat and add sesame oil. </li>
+                <li>Give the broth a big stir, then, in a slow stream, pour in eggs (do not stir again). Season with salt and pepper. Serve with green onions as garnish.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+<html>

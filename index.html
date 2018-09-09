@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+     <link href="https://fonts.googleapis.com/css?family=Amatic SC|Dynalight" rel="stylesheet">
+     <title>Cook it</title>
+     <style>
+       body, html {
+         height: 100%;
+         margin: 0;
+       }
+
+       #background {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         position: absolute;
+       }
+
+       #caption {
+         position: absolute;
+         top: 3%;
+         width: 100%;
+         text-align: center;
+       }
+
+       .title {
+         font-family: "Dynalight";
+         font-size: 4vw;
+         color: #ffffff;
+       }
+
+       .text {
+         font-family: "Amatic SC";
+         font-size: 1.5vw;
+         color: #f2f2f2;
+       }
+
+       #arrow {
+         position: absolute;
+         top: 58%;
+         width: 100%;
+         height: 1.5vw;
+       }
+     </style>
+   </head>
+   <body>
+       <img id="background" width="5000" height="3000" src="./src/background_main.jpg" usemap="#meals">
+
+       <map name="meals">
+         <area shape="circle" coords="209,830,190" href="./soup.html" alt="Soup" title="Soup">
+         <area shape="circle" coords="560,830,190" href="./main_course.html" alt="Main course" title="Main course">
+         <area shape="circle" coords="950,830,190" href="./breakfast.html" alt="Breakfast" title="Breakfast">
+         <area shape="circle" coords="1350,830,190" href="./salad.html" alt="Salad" title="Salad">
+         <area shape="circle" coords="1700,830,190" href="./dessert.html" alt="Dessert" title="Dessert">
+       </map>
+
+       <div id="caption">
+         <h1 class="title">-Good food-</h1>
+         <p class="text">Recipies, that inspires you</p>
+         <h2 class="title">-Good mood-</h2>
+         <p class="text">Choose what you want to cook</p>
+       </div>
+
+       <img id="arrow" src="./src/arrow.svg">
+   </body>
+</html>

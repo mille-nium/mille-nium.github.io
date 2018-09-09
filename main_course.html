@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Amatic SC" rel="stylesheet">
+    <title>Main Course Recipie</title>
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+      }
+
+      img {
+        height: 100%;
+        float: left;
+      }
+
+      * {
+        box-sizing: border-box;
+        font-family: 'Amatic SC';
+        font-size: 1vw;
+        color: #06070E;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+
+      th, td {
+        text-align: center;
+        font-size: 1vw;
+        padding: 8px;
+      }
+
+      td span {
+        font-weight: bold;
+        color: #F9CB40;
+      }
+
+      #background {
+        background-image: url(./src/background.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #board {
+        background: #F4F3EE;
+        border-radius: 0.2vw;
+        width: 60vw;
+        height: 35vw;
+        boxShadow: 1px 1px 12px;
+      }
+
+      #information {
+        display: block;
+        overflow-x: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #title {
+        font-size: 2vw;
+      }
+
+      #recipie {
+        display: flex;
+      }
+
+      #recipie div {
+        flex: 10%;
+        text-align: center;
+        padding: 2vw;
+      }
+
+      #recipie li {
+        font-size: 1vw;
+        font-weight: normal;
+      }
+
+      .text {
+        font-size: 1vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="background">
+      <div id="board">
+        <img src="./src/main_course.jpg" alt="mac and cheese">
+        <div id="information">
+          <h1 id="title">Italian Mac & Cheese</h1>
+          <p>This is our new Italian dreamboat.</p>
+          <table>
+            <tr>
+              <th>YIELDS</th>
+              <th>PREP TIME</th>
+              <th>TOTAL TIME</th>
+            </tr>
+            <tr>
+              <td><span>4 SERVINGS</span></td>
+              <td><span>15 MINS</span></td>
+              <td><span>1 HOUR</span></td>
+            </tr>
+          </table>
+          <div id="recipie">
+            <div>
+              <h2>Ingredients<h2>
+              <ul>
+                <li>1 lb. Italian sausage</li>
+                <li>1 large onion, diced</li>
+                <li>2 cloves garlic, minced</li>
+                <li>1 red bell pepper, diced</li>
+                <li>12 oz. cavatappi</li>
+                <li>1 oz. (16-oz.) jar marinara</li>
+                <li>Kosher salt</li>
+                <li>1/4 c. half-and-half or heavy cream</li>
+                <li>2 c. shredded mozzarella, divided</li>
+              </ul>
+            </div>
+            <div>
+              <h2>Directions<h2>
+              <ol>
+                <li>In a large oven-safe skillet over medium-high heat, cook sausage, breaking up with a wooden spoon, until seared and no longer pink, about 4 minutes.</li>
+                <li>Add cavatappi and stir until coated, then pour over marinara and broth and season with salt.</li>
+                <li>Transfer mixture to a large baking dish and sprinkle with remaining mozzarella. Bake until cheese is bubbly and golden, about 10 minutes.</li>
+                <li>Garnish with parsley before serving.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+<html>
